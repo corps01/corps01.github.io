@@ -1,25 +1,51 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header";
+import { Box } from "@mui/material";
+import { ThemeProvider, createTheme } from "@mui/material/styles";
+import Timeline from "./components/Timeline/Timeline";
+import { useState } from "react";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import CssBaseline from "@mui/material/CssBaseline";
+import TechStack from "./components/TechStack/TechStack";
 
-function App() {
+const App = () => {
+  const [darkMode, setDarkMode] = useState(true);
+
+  const toggleDarkMode = () => {
+    setDarkMode(!darkMode);
+  };
+
+  const darkTheme = createTheme({
+    palette: {
+      background: {
+        default: darkMode ? "#11111B" : "#eeeeee",
+      },
+      primary: {
+        main: "#EC4257",
+      },
+      secondary: {
+        main: darkMode ? "#1C1C26" : "#ffff",
+      },
+      mode: darkMode ? "dark" : "light",
+    },
+  });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={darkTheme}>
+      <CssBaseline />
+      <Box
+        sx={{
+          padding: "1rem",
+        }}
+      >
+        <Header toggleDarkMode={toggleDarkMode} />
+        <About />
+        <TechStack />
+        <Timeline darkMode={darkMode} />
+        <Contact />
+      </Box>
+    </ThemeProvider>
   );
-}
+};
 
 export default App;
