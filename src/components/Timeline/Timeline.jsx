@@ -3,10 +3,13 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
+import { useTheme } from "@mui/material/styles";
 import { Box } from "@mui/material";
 import "./timelineComponent.css";
 
 const Timeline = () => {
+  const theme = useTheme();
+
   return (
     <Box
       sx={{
@@ -22,7 +25,7 @@ const Timeline = () => {
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(28,28,38)" }}
+          contentStyle={{ background: theme.palette.secondary.main }}
           date="Mar 2022 - Feb 2023"
           dateClassName="white-date"
         >
@@ -38,7 +41,7 @@ const Timeline = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(28,28,38)" }}
+          contentStyle={{ background: theme.palette.secondary.main }}
           date="Nov 2021 - Mar 2022 "
           dateClassName="white-date"
         >
@@ -58,7 +61,7 @@ const Timeline = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(28,28,38)" }}
+          contentStyle={{ background: theme.palette.secondary.main }}
           date=" 2015-2018"
           dateClassName="white-date"
         >
@@ -76,7 +79,7 @@ const Timeline = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(28,28,38)" }}
+          contentStyle={{ background: theme.palette.secondary.main }}
           date=" 2015-2018"
           dateClassName="white-date"
         >
