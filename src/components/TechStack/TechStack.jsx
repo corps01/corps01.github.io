@@ -1,7 +1,17 @@
 import { Grid, Box } from "@mui/material";
 import TechStackCard from "./TechStackCard";
-import Brightness7Icon from "@mui/icons-material/Brightness7";
 import { ReactComponent as ReactLogo } from "../../icons/react.svg";
+import { ReactComponent as ExpressLogo } from "../../icons/express.svg";
+import { ReactComponent as NodeLogo } from "../../icons/nodejs.svg";
+import { ReactComponent as Typescript } from "../../icons/typescript.svg";
+import { ReactComponent as ReduxLogo } from "../../icons/redux.svg";
+import { ReactComponent as PostresLogo } from "../../icons/postgres.svg";
+import { ReactComponent as NestJSLogo } from "../../icons/nestjs.svg";
+import { ReactComponent as DockerLogo } from "../../icons/docker.svg";
+import { ReactComponent as JestLogo } from "../../icons/jest.svg";
+import { ReactComponent as GraphqlLogo } from "../../icons/graphql.svg";
+import { ReactComponent as TailwindLogo } from "../../icons/tailwind.svg";
+import { ReactComponent as GitLogo } from "../../icons/git.svg";
 
 const TechStack = () => {
   return (
@@ -54,16 +64,18 @@ const TechStack = () => {
           }}
           justifyContent={"space-evenly"}
         >
+          <TechStackCard tech={{ name: "Typescript", icon: <Typescript /> }} />
           <TechStackCard tech={{ name: "React", icon: <ReactLogo /> }} />
-          <TechStackCard tech={{ name: "React", icon: <Brightness7Icon /> }} />
-          <TechStackCard tech={{ name: "React", icon: <Brightness7Icon /> }} />
-          <TechStackCard tech={{ name: "React", icon: <Brightness7Icon /> }} />
-          <TechStackCard tech={{ name: "React", icon: <Brightness7Icon /> }} />
-          <TechStackCard tech={{ name: "React", icon: <Brightness7Icon /> }} />
-          <TechStackCard tech={{ name: "React", icon: <Brightness7Icon /> }} />
-          <TechStackCard tech={{ name: "React", icon: <Brightness7Icon /> }} />
-          <TechStackCard tech={{ name: "React", icon: <Brightness7Icon /> }} />
-          <TechStackCard tech={{ name: "React", icon: <Brightness7Icon /> }} />
+          <TechStackCard tech={{ name: "Redux", icon: <ReduxLogo /> }} />
+          <TechStackCard tech={{ name: "Tailwind", icon: <TailwindLogo /> }} />
+          <TechStackCard tech={{ name: "NodeJS", icon: <NodeLogo /> }} />
+          <TechStackCard tech={{ name: "ExpressJS", icon: <ExpressLogo /> }} />
+          <TechStackCard tech={{ name: "GraphQL", icon: <GraphqlLogo /> }} />
+          <TechStackCard tech={{ name: "Jest", icon: <JestLogo /> }} />
+          <TechStackCard tech={{ name: "PostreSQL", icon: <PostresLogo /> }} />
+          <TechStackCard tech={{ name: "NestJS", icon: <NestJSLogo /> }} />
+          <TechStackCard tech={{ name: "Docker", icon: <DockerLogo /> }} />
+          <TechStackCard tech={{ name: "Git", icon: <GitLogo /> }} />
         </Grid>
       </Box>
     </Box>

@@ -16,7 +16,6 @@ const TechStackCard = ({ tech }) => {
   return (
     <Grid
       item
-      Paper
       bgcolor={theme.palette.secondary.main}
       sx={{
         display: "flex",
@@ -24,6 +23,7 @@ const TechStackCard = ({ tech }) => {
         margin: ".5rem",
         borderRadius: "5px",
         "&:hover": { color: theme.palette.primary.main },
+        transition: "0.2s",
       }}
     >
       <Box sx={techCardStyle} padding={1}>
