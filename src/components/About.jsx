@@ -35,7 +35,7 @@ const About = () => {
             I'm <b>Omar Corpus</b>
           </h1>
           <p>
-            A FullStack Develoer who is in love with Linux, design and pushing
+            A FullStack Develoer who is in love with design and pushing
             boundaries.
           </p>
           <Button

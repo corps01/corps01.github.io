@@ -14,7 +14,6 @@ import { init, send } from "emailjs-com";
 const Contact = () => {
   const theme = useTheme();
   const [name, setName] = useState(""); //name
-  const [reply_to, setReplyTo] = useState(""); //message
   const [message, setMessage] = useState(""); //message
 
   init("3ZQI1Pv4aPZeGhupw");
@@ -60,13 +59,14 @@ const Contact = () => {
       <Box
         sx={{
           display: "flex",
+          flexDirection: { xs: "column", md: "row" },
           alignItems: "center",
         }}
       >
         <Box
           sx={{
-            height: "340px",
-            width: "420px",
+            height: { xs: "240px", md: "340px" },
+            width: { xs: "500px", md: "420px" },
             padding: "10px",
             backgroundColor: "#ec4257;",
             display: "flex",
@@ -118,8 +118,8 @@ const Contact = () => {
         </Box>
         <Box
           sx={{
-            height: "400px",
-            width: "650px",
+            height: { xs: "350px", md: "400px" },
+            width: { xs: "500px", md: "650px" },
             paddingLeft: "60px",
             padding: "40px 60px",
             background: theme.palette.secondary.main,
@@ -129,7 +129,7 @@ const Contact = () => {
             justifyContent: "center",
             textAlign: "center",
             borderRadius: "4%",
-            marginLeft: "-50px",
+            marginLeft: { xs: "none", md: "-50px" },
           }}
         >
           <form

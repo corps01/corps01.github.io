@@ -46,13 +46,12 @@ const TechStack = () => {
             but also about open-source and design.
           </p>
           <p>
-            My love for Linux runs as deep as my love for creating visually
-            stunning websites and user interfaces.
-          </p>
-          <p>
             I aim to not only create functional, responsive websites but also
             beautiful, intuitive ones that leave a lasting impression on users
             with my skills as well as my keen eye for design.
+          </p>
+          <p>
+            I'm a fully bilingual team-player ready to integrate to any team!
           </p>
         </Box>
         <Grid

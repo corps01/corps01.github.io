@@ -9,9 +9,9 @@
   background-position: center center;
   border-radius: 25%;
 
-  /* box-shadow: -9px 13px 16px 0px rgba(255, 250, 240, 0.2); */
-  /* animation: animate 5s ease-in-out infinite; */
-  /* transition: all 5s ease-in-out; */
+  box-shadow: -9px 13px 16px 0px rgba(255, 250, 240, 0.2);
+  animation: animate 10s ease-in-out infinite;
+  transition: all 0.5s ease-in-out;
 }
 
 @keyframes animate {
