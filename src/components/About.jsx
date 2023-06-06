@@ -3,6 +3,17 @@ import DownloadForOfflineIcon from "@mui/icons-material/DownloadForOffline";
 import "../App.css";
 
 const About = () => {
+  const handleDownload = () => {
+    const fileUrl = "https://www.youtube.com/watch?v=Sc89RZcd1Rk&t=2797s";
+
+    const anchorElement = document.createElement("a");
+    anchorElement.href = fileUrl;
+    anchorElement.target = "_blank"; // Open in a new tab
+    anchorElement.rel = "noopener noreferrer"; // Recommended for security reasons
+    anchorElement.download = "portfolio.pdf";
+    anchorElement.click();
+  };
+
   return (
     <Box>
       <Box
