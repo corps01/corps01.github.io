@@ -46,7 +46,6 @@ const Contact = () => {
   return (
     <Box
       sx={{
-        paddingTop: { xs: "4rem", md: "8rem" },
         paddingBottom: { xs: "4rem", md: "8rem" },
         display: "flex",
         alignItems: "center",

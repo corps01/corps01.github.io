@@ -13,10 +13,10 @@ const Timeline = () => {
   return (
     <Box
       sx={{
-        paddingTop: { xs: "4rem", md: "8rem" },
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
+        marginBottom: { xs: "4rem", md: "8rem" },
       }}
     >
       <h1 style={{ paddingBottom: "1rem" }}>

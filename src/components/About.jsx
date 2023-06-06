@@ -4,13 +4,14 @@ import "../App.css";
 
 const About = () => {
   return (
-    <Box sx={{ paddingTop: { xs: "4rem", md: "6rem" } }}>
+    <Box>
       <Box
         sx={{
           display: "flex",
           flexDirection: { xs: "column", lg: "row-reverse" },
           justifyContent: "center",
           alignItems: "center",
+          marginBottom: { xs: "4rem", md: "8rem" },
         }}
       >
         <Box
@@ -38,6 +39,7 @@ const About = () => {
             A FullStack Develoer who is in love with design and pushing
             boundaries.
           </p>
+
           <Button
             sx={{
               mt: 4,
@@ -45,6 +47,9 @@ const About = () => {
               width: { xs: "100%", md: "50%" },
             }}
             variant="contained"
+            href="https://github.com/corps01/corps01.github.io/blob/main/Omar%20Caleb%20Corpus%20Mendoza.pdf"
+            target="_blank"
+            download
           >
             Download CV
             <DownloadForOfflineIcon sx={{ marginLeft: "10px" }} />

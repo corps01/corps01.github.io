@@ -17,10 +17,10 @@ const TechStack = () => {
   return (
     <Box
       sx={{
-        paddingTop: { xs: "4rem", md: "12rem" },
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
+        marginBottom: { xs: "4rem", md: "12rem" },
       }}
     >
       <h1 style={{ fontSize: "2rem" }}>
