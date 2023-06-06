@@ -76,7 +76,7 @@ export default function ButtonAppBar({ toggleDarkMode }) {
             to="about"
             smooth={true}
             duration={500}
-            style={{ padding: "15px", cursor: "pointer", fontSize: "1rem" }}
+            style={{ padding: "15px", cursor: "pointer", fontSize: "1.3rem" }}
             onClick={toggleDrawer}
           >
             about.
@@ -85,7 +85,7 @@ export default function ButtonAppBar({ toggleDarkMode }) {
             to="timeline"
             smooth={true}
             duration={500}
-            style={{ padding: "15px", cursor: "pointer", fontSize: "1rem" }}
+            style={{ padding: "15px", cursor: "pointer", fontSize: "1.3rem" }}
             onClick={toggleDrawer}
           >
             history.
@@ -94,7 +94,7 @@ export default function ButtonAppBar({ toggleDarkMode }) {
             to="contact"
             smooth={true}
             duration={500}
-            style={{ padding: "15px", cursor: "pointer", fontSize: "1rem" }}
+            style={{ padding: "15px", cursor: "pointer", fontSize: "1.3rem" }}
             onClick={toggleDrawer}
           >
             contact.

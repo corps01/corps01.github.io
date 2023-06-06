@@ -62,7 +62,7 @@ const Timeline = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: theme.palette.secondary.main }}
-          date=" 2015-2018"
+          date=" 2018-2022"
           dateClassName="white-date"
         >
           <h3 className="vertical-timeline-element-title">Software Engineer</h3>
