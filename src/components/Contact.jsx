@@ -13,8 +13,8 @@ import { init, send } from "emailjs-com";
 
 const Contact = () => {
   const theme = useTheme();
-  const [name, setName] = useState(""); //name
-  const [message, setMessage] = useState(""); //message
+  const [name, setName] = useState("");
+  const [message, setMessage] = useState("");
 
   init("3ZQI1Pv4aPZeGhupw");
 
@@ -92,12 +92,15 @@ const Contact = () => {
                 flexDirection: "row",
               }}
             >
-              <ListItem component="a" href="https://www.facebook.com">
+              <ListItem
+                component="a"
+                href="https://www.facebook.com/profile.php?id=100008716595195"
+              >
                 <ListItemIcon>
                   <Facebook />
                 </ListItemIcon>
               </ListItem>
-              <ListItem component="a" href="https://www.twitter.com">
+              <ListItem component="a" href="https://twitter.com/that_corpus">
                 <ListItemIcon>
                   <Twitter />
                 </ListItemIcon>
@@ -107,7 +110,10 @@ const Contact = () => {
                   <Instagram />
                 </ListItemIcon>
               </ListItem>
-              <ListItem component="a" href="https://www.linkedin.com">
+              <ListItem
+                component="a"
+                href="https://www.linkedin.com/in/omar-corpus-2890b821b/"
+              >
                 <ListItemIcon>
                   <LinkedIn />
                 </ListItemIcon>

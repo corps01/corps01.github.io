@@ -1,17 +1,17 @@
 import { Grid, Box } from "@mui/material";
 import TechStackCard from "./TechStackCard";
-import { ReactComponent as ReactLogo } from "../../icons/react.svg";
-import { ReactComponent as ExpressLogo } from "../../icons/express.svg";
-import { ReactComponent as NodeLogo } from "../../icons/nodejs.svg";
-import { ReactComponent as Typescript } from "../../icons/typescript.svg";
-import { ReactComponent as ReduxLogo } from "../../icons/redux.svg";
-import { ReactComponent as PostresLogo } from "../../icons/postgres.svg";
-import { ReactComponent as NestJSLogo } from "../../icons/nestjs.svg";
-import { ReactComponent as DockerLogo } from "../../icons/docker.svg";
-import { ReactComponent as JestLogo } from "../../icons/jest.svg";
-import { ReactComponent as GraphqlLogo } from "../../icons/graphql.svg";
-import { ReactComponent as TailwindLogo } from "../../icons/tailwind.svg";
-import { ReactComponent as GitLogo } from "../../icons/git.svg";
+import { ReactComponent as ReactLogo } from "../../assests/icons/react.svg";
+import { ReactComponent as ExpressLogo } from "../../assests/icons/express.svg";
+import { ReactComponent as NodeLogo } from "../../assests/icons/nodejs.svg";
+import { ReactComponent as Typescript } from "../../assests/icons/typescript.svg";
+import { ReactComponent as ReduxLogo } from "../../assests/icons/redux.svg";
+import { ReactComponent as PostresLogo } from "../../assests/icons/postgres.svg";
+import { ReactComponent as NestJSLogo } from "../../assests/icons/nestjs.svg";
+import { ReactComponent as DockerLogo } from "../../assests/icons/docker.svg";
+import { ReactComponent as JestLogo } from "../../assests/icons/jest.svg";
+import { ReactComponent as GraphqlLogo } from "../../assests/icons/graphql.svg";
+import { ReactComponent as TailwindLogo } from "../../assests/icons/tailwind.svg";
+import { ReactComponent as GitLogo } from "../../assests/icons/git.svg";
 
 const TechStack = () => {
   return (

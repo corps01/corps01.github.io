@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.28688b59.css",
-    "main.js": "/static/js/main.7bc272d9.js",
+    "main.js": "/static/js/main.71d04800.js",
     "static/js/787.aef2db8c.chunk.js": "/static/js/787.aef2db8c.chunk.js",
     "static/media/nestjs.svg": "/static/media/nestjs.b4ad2a9b7d13bd0318ab9f53c99a97c6.svg",
     "static/media/postgres.svg": "/static/media/postgres.fe1029177088f45468d8aa10201e2144.svg",
@@ -12,16 +12,16 @@
     "static/media/redux.svg": "/static/media/redux.6c5156d9e761ce43c3463efaddf9eb83.svg",
     "static/media/graphql.svg": "/static/media/graphql.4b1264b9e0bd67edf3d410cafc49f572.svg",
     "static/media/typescript.svg": "/static/media/typescript.4d886d5c63bd0abbf307c3eec038eda6.svg",
-    "index.html": "/index.html",
     "static/media/tailwind.svg": "/static/media/tailwind.dc3a4cf517a63136afb09dd7900e6d0b.svg",
     "static/media/git.svg": "/static/media/git.6be331d73d25da0d4fdf958a621b033a.svg",
+    "index.html": "/index.html",
     "static/media/docker.svg": "/static/media/docker.34c816c7658623e844b66392463a8a60.svg",
     "main.28688b59.css.map": "/static/css/main.28688b59.css.map",
-    "main.7bc272d9.js.map": "/static/js/main.7bc272d9.js.map",
+    "main.71d04800.js.map": "/static/js/main.71d04800.js.map",
     "787.aef2db8c.chunk.js.map": "/static/js/787.aef2db8c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.28688b59.css",
-    "static/js/main.7bc272d9.js"
+    "static/js/main.71d04800.js"
   ]
 }

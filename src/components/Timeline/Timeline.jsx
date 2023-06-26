@@ -16,7 +16,7 @@ const Timeline = () => {
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        marginBottom: { xs: "4rem", md: "8rem" },
+        marginBottom: { md: "8rem" },
       }}
     >
       <h1 style={{ paddingBottom: "1rem" }}>
@@ -27,7 +27,7 @@ const Timeline = () => {
           className="vertical-timeline-element--work"
           contentStyle={{ background: theme.palette.secondary.main }}
           date="Mar 2022 - Feb 2023"
-          dateClassName="white-date"
+          dateClassName={theme.palette.mode}
         >
           <h3 className="vertical-timeline-element-title">Web Developer</h3>
           <h4 className="vertical-timeline-element-subtitle">
@@ -43,7 +43,7 @@ const Timeline = () => {
           className="vertical-timeline-element--work"
           contentStyle={{ background: theme.palette.secondary.main }}
           date="Nov 2021 - Mar 2022 "
-          dateClassName="white-date"
+          dateClassName={theme.palette.mode}
         >
           <h3 className="vertical-timeline-element-title">
             Front-end Volunteer Developer
@@ -63,7 +63,7 @@ const Timeline = () => {
           className="vertical-timeline-element--work"
           contentStyle={{ background: theme.palette.secondary.main }}
           date=" 2018-2022"
-          dateClassName="white-date"
+          dateClassName={theme.palette.mode}
         >
           <h3 className="vertical-timeline-element-title">Software Engineer</h3>
           <h4 className="vertical-timeline-element-subtitle">
@@ -81,7 +81,7 @@ const Timeline = () => {
           className="vertical-timeline-element--work"
           contentStyle={{ background: theme.palette.secondary.main }}
           date=" 2015-2018"
-          dateClassName="white-date"
+          dateClassName={theme.palette.mode}
         >
           <h3 className="vertical-timeline-element-title">
             Analist Programmer

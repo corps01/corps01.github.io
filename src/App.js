@@ -7,7 +7,9 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import CssBaseline from "@mui/material/CssBaseline";
 import TechStack from "./components/TechStack/TechStack";
+import Carousel from "./components/Carousel/Carousel";
 import { Element } from "react-scroll";
+import Projects from "./components/Projects/Projects";
 
 const App = () => {
   const [darkMode, setDarkMode] = useState(true);
@@ -44,8 +46,12 @@ const App = () => {
         <Element id="about">
           <TechStack />
         </Element>
+        <Element id="contact">
+          <Projects />
+        </Element>
         <Element id="timeline">
           <Timeline darkMode={darkMode} />
+          <Carousel />
         </Element>
         <Element id="contact">
           <Contact />
