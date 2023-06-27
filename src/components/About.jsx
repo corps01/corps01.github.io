@@ -1,18 +1,28 @@
 import { Box, Button } from "@mui/material";
 import DownloadForOfflineIcon from "@mui/icons-material/DownloadForOffline";
+import CodeIcon from "@mui/icons-material/Code";
 import "../App.css";
 import gifImage from "../assests/img/waving-hand.gif";
+import { Link } from "react-scroll";
 
 const About = () => {
   return (
-    <Box>
+    <Box
+      sx={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        marginBottom: { xs: "4rem", md: "10rem" },
+      }}
+    >
       <Box
         sx={{
           display: "flex",
-          flexDirection: { xs: "column", lg: "row-reverse" },
-          justifyContent: "center",
+          flexDirection: { xs: "column", md: "row-reverse" },
+          justifyContent: "space-between",
           alignItems: "center",
-          marginBottom: { xs: "4rem", md: "8rem" },
+          minWidth: { md: "65%" },
+          maxWidth: { md: "65%" },
         }}
       >
         <Box
@@ -21,7 +31,6 @@ const About = () => {
             width: 500,
             maxHeight: { xs: 250, md: 420 },
             maxWidth: { xs: 250, md: 420 },
-            marginLeft: { xs: "0%", md: "12rem" },
           }}
           className="profilePic"
         />
@@ -47,12 +56,25 @@ const About = () => {
             A FullStack Develoer who is in love with design and pushing
             boundaries.
           </p>
-
+          <Link to="projects" smooth={true} duration={500}>
+            <Button
+              sx={{
+                mt: 4,
+                paddingY: 2,
+                width: { xs: "100%", md: "40%" },
+              }}
+              variant="contained"
+            >
+              Projects
+              <CodeIcon sx={{ marginLeft: "10px" }} />
+            </Button>
+          </Link>
           <Button
             sx={{
-              mt: 4,
+              mt: { xs: 2, md: 4 },
               paddingY: 2,
-              width: { xs: "100%", md: "50%" },
+              marginLeft: { xs: 0, md: 2 },
+              width: { xs: "100%", md: "40%" },
             }}
             variant="contained"
             href="https://corps01.github.io/static/media/Omar%20Caleb%20Corpus%20Mendoza.pdf"
@@ -61,16 +83,6 @@ const About = () => {
           >
             Download CV
             <DownloadForOfflineIcon sx={{ marginLeft: "10px" }} />
-          </Button>
-          <Button
-            sx={{
-              mt: 4,
-              paddingY: 2,
-              width: { xs: "100%", md: "50%" },
-            }}
-            variant="contained"
-          >
-            Projects.
           </Button>
         </Box>
       </Box>

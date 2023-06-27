@@ -46,7 +46,7 @@ const App = () => {
         <Element id="about">
           <TechStack />
         </Element>
-        <Element id="contact">
+        <Element id="projects">
           <Projects />
         </Element>
         <Element id="timeline">

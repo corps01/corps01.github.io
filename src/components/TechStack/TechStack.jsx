@@ -20,7 +20,7 @@ const TechStack = () => {
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        marginBottom: { xs: "4rem", md: "12rem" },
+        marginBottom: { xs: "4rem", md: "10rem" },
       }}
     >
       <h1 style={{ fontSize: "2rem" }}>
@@ -29,16 +29,18 @@ const TechStack = () => {
       <Box
         sx={{
           display: "flex",
-          flexDirection: { xs: "column", lg: "row" },
-          alignItems: "center",
-          justifyContent: "center",
+          flexDirection: { xs: "column", md: "row" },
           paddingTop: { md: "5rem" },
+          alignItems: "center",
+          justifyContent: "space-between",
+          minWidth: { md: "65%" },
+          maxWidth: { md: "65%" },
         }}
       >
         <Box
           sx={{
-            maxWidth: "30rem",
-            marginRight: { xs: "0%", md: "10rem" },
+            maxWidth: { md: "45%", xs: "100%" },
+            textAlign: "justify",
           }}
         >
           <p>
