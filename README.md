@@ -8,7 +8,7 @@ Welcome to my GitHub profile! I'm a passionate front-end developer with a love f
 - 🎨 I enjoy crafting pixel-perfect designs and translating them into responsive web applications.
 - 🚀 Constantly learning and keeping up with the latest web technologies and trends.
 - ✨ A believer in clean code, modular architecture, and best coding practices.
-- 👥 Excellent team player with strong communication skills.
+- 👥 Excellent team player with bilingual communication skills.
 
 
 ## Let's Connect
