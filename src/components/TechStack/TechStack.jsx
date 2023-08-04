@@ -44,16 +44,22 @@ const TechStack = () => {
           }}
         >
           <p>
-            I am a Frontend Developer who isn't just passionate about coding,
-            but also about open-source and design.
-          </p>
-          <p>
-            I aim to not only create functional, responsive websites but also
-            beautiful, intuitive ones that leave a lasting impression on users
-            with my skills as well as my keen eye for design.
-          </p>
-          <p>
-            I'm a fully bilingual team-player ready to integrate to any team!
+            I'm dedicated to creating seamless user experiences and captivating
+            web applications.
+            <br></br>
+            <br></br>
+            My expertise lies in React, Typescript and NodeJS allowing me to
+            transform ideas into reality with innovative solutions.
+            <br></br> <br></br>I believe in the power of collaboration and open
+            communication. I have experience working with English-speaking
+            clients and closely collaborating with cross-functional teams.
+            <br></br> <br></br>
+            Attention to detail is one of my strengths, and I always strive to
+            meet and exceed expectations in every project. <br></br> <br></br>{" "}
+            Continuous improvement is essential to me, and I stay updated with
+            the latest industry trends and technologies to provide innovative
+            solutions.
+            <br></br> <br></br>
           </p>
         </Box>
         <Grid

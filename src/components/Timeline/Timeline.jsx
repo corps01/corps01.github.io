@@ -34,8 +34,10 @@ const Timeline = () => {
             Enroute Systems
           </h4>
           <p>
-            Worked as a web developer, creating user interfaces, creating API
-            end-points, and collaborating with the design team.
+            During my time at Enroute as a web developer, I was actively
+            involved in the development of user interfaces, integration of data
+            endpoints, and thorough testing of components to ensure their proper
+            functionality and prevent any potential errors.
           </p>
           <p>React, Typescript, GraphQL, Nest</p>
         </VerticalTimelineElement>

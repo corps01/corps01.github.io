@@ -53,10 +53,11 @@ const About = () => {
             I'm <b>Omar Corpus</b>
           </h1>
           <p>
-            A FullStack Develoer who is in love with design and pushing
-            boundaries.
+            I'm a passionate software engineer with a degree in software
+            development from the University of Colima. I specialize in web
+            development.
           </p>
-          <Link to="projects" smooth={true} duration={500}>
+          {/* <Link to="projects" smooth={true} duration={500}>
             <Button
               sx={{
                 mt: 4,
@@ -68,12 +69,12 @@ const About = () => {
               Projects
               <CodeIcon sx={{ marginLeft: "10px" }} />
             </Button>
-          </Link>
+          </Link> */}
           <Button
             sx={{
               mt: { xs: 2, md: 4 },
               paddingY: 2,
-              marginLeft: { xs: 0, md: 2 },
+              marginLeft: { xs: 0, md: 0 },
               width: { xs: "100%", md: "40%" },
             }}
             variant="contained"

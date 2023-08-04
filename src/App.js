@@ -9,7 +9,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 import TechStack from "./components/TechStack/TechStack";
 import Carousel from "./components/Carousel/Carousel";
 import { Element } from "react-scroll";
-import Projects from "./components/Projects/Projects";
+// import Projects from "./components/Projects/Projects";
 
 const App = () => {
   const [darkMode, setDarkMode] = useState(true);
@@ -46,9 +46,9 @@ const App = () => {
         <Element id="about">
           <TechStack />
         </Element>
-        <Element id="projects">
+        {/* <Element id="projects">
           <Projects />
-        </Element>
+        </Element> */}
         <Element id="timeline">
           <Timeline darkMode={darkMode} />
           <Carousel />
