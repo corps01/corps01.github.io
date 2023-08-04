@@ -27,8 +27,8 @@ const About = () => {
           sx={{
             height: 500,
             width: 500,
-            maxHeight: { xs: 250, md: 420 },
-            maxWidth: { xs: 250, md: 420 },
+            maxHeight: { xs: 250, md: 550 },
+            maxWidth: { xs: 250, md: 550 },
           }}
           className="profilePic"
         />
@@ -64,7 +64,7 @@ const About = () => {
               width: { xs: "100%", md: "40%" },
             }}
             variant="contained"
-            href="../assests/img/omar_corpus.png"
+            href="../assests/documents/CV - Omar Caleb Corpus.pdf"
             target="_blank"
             download
           >
