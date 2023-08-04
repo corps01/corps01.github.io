@@ -67,7 +67,7 @@ const TechStack = () => {
           sx={{
             maxWidth: "479px",
             minWidth: "350px",
-            paddingTop: { xs: "2rem", md: "0" },
+            paddingTop: { xs: "2rem", md: "0%" },
           }}
           justifyContent={"space-evenly"}
         >

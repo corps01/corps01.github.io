@@ -78,7 +78,7 @@ const About = () => {
               width: { xs: "100%", md: "40%" },
             }}
             variant="contained"
-            href="https://corps01.github.io/static/media/Omar%20Caleb%20Corpus%20Mendoza.pdf"
+            href="../assests/img/omar_corpus.png"
             target="_blank"
             download
           >
