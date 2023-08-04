@@ -1,9 +1,7 @@
 import { Box, Button } from "@mui/material";
 import DownloadForOfflineIcon from "@mui/icons-material/DownloadForOffline";
-import CodeIcon from "@mui/icons-material/Code";
 import "../App.css";
 import gifImage from "../assests/img/waving-hand.gif";
-import { Link } from "react-scroll";
 
 const About = () => {
   return (
@@ -57,19 +55,7 @@ const About = () => {
             development from the University of Colima. I specialize in web
             development.
           </p>
-          {/* <Link to="projects" smooth={true} duration={500}>
-            <Button
-              sx={{
-                mt: 4,
-                paddingY: 2,
-                width: { xs: "100%", md: "40%" },
-              }}
-              variant="contained"
-            >
-              Projects
-              <CodeIcon sx={{ marginLeft: "10px" }} />
-            </Button>
-          </Link> */}
+
           <Button
             sx={{
               mt: { xs: 2, md: 4 },
